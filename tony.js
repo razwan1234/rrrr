@@ -61,7 +61,7 @@ client.on("message", message => {
 });
 //===============================================================================\\
 client.on("guildCreate", guild => {
-  client.channels.cache.get("869140331537522689").send(`
+  client.channels.cache.get("852864101012209716").send(`
 ✅ **Join Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
@@ -70,7 +70,7 @@ client.on("guildCreate", guild => {
 });
 ////////////////////////////////////////////
 client.on("guildDelete", guild => {
-  client.channels.cache.get("869140331537522689").send(`
+  client.channels.cache.get("852864101012209716").send(`
 ❎ **Lift Server**: ${client.guilds.cache.size}
 🔠 **Server Name**: ${guild.name}
 👑 **Server Owner**: ${guild.owner}
@@ -79,11 +79,11 @@ client.on("guildDelete", guild => {
 });
 //================================================================================\\
 client.on("message", message => {
-  if (message.content === "Shelp") {
+  if (message.content === "Rhelp") {
     const embed = new Discord.MessageEmbed()
       .setThumbnail(client.user.avatarURL())
       .setColor("c6df00")
-      .setAuthor("The Prefix { S }").setDescription(`
+      .setAuthor("The Prefix { R }").setDescription(`
 **📚┇___Genaral Commands___
 bot - avatar - server
 invite - support - kick
@@ -1048,7 +1048,7 @@ client.on("message", async message => {
         }
       })
       .catch(e => {
-        client.log.error(e);
+        client.log.error("ODg0NDg2MjA2MjQ1NzMyMzcz.YTZL-A.Zdp752ov0iZRH9PwqQa60c8g-cY");
       });
   }
 });
